@@ -1,0 +1,153 @@
+@media (max-width: 1400px) {
+#home_carousel .position-title h1, #home_carousel .position-title h1 span.color1{ font-size:38px; margin-bottom:8px; font-family: 'vag_roundedbold';}
+#home_carousel .position-title h1 span{ font-size:32px;}
+#home_carousel .carousel-caption h2{ font-size:24px;}
+#home_carousel .carousel-caption h3{ font-size:26px;}
+.button-link{ margin-top:10%;}
+
+}
+
+@media(max-width:1200px){
+#home_carousel .position-title h1 span{ font-size:20px;}
+#home_carousel .position-title h2{ font-size:24px;}
+.options-wrap{ top:425px; width:343px;}
+.options-wrap a{ height:50px; font-size:18px;}
+.option2{ left:auto; right:21px;}
+.option3{ left:1px; right:auto; top:675px;}
+.option4{ left:auto; right:21px; top:675px;}
+.option5{ left:1px; right:auto; top:924px;}
+.option6{ left:auto; right:21px; top:924px;}
+#home_carousel { height: auto;}
+#home_carousel .position-title h1, , #home_carousel .position-title h1 span.color1{ font-size:32px;}
+#home_carousel .position-title h1 span{ font-size:28px;}
+.button-link{ margin-top:12%; margin-bottom:50px;}	
+#home_carousel .btn{ font-size:14px; padding:5px 8px;}
+}
+
+@media (max-width:1080px){
+#home_carousel .position-title{ width:55%; top:70px;}
+#home_carousel .carousel-caption{ top:180px;}
+#home_carousel .carousel-caption h3{ font-size:20px;}
+/*#home_carousel .position-title h1{ font-size:22px;}
+#home_carousel .position-title h1 span{ font-size:18px;}
+#home_carousel .carousel-caption h2{ font-size:20px;}
+#home_carousel .carousel-caption h3{ font-size:18px;}
+*/}
+
+@media (max-width: 992px) {
+/*nav*/
+.navbar-header {
+	float: none;
+}
+.navbar-left, .navbar-right {
+	float: none !important;
+}
+.navbar-toggle {
+	display: block;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin-top: 7.5px;
+}
+.navbar-nav>li {
+	float: none;
+	margin-right:0;
+	border-bottom:solid 1px #e7e7e7;
+}
+.navbar-nav>li>a {
+	text-align:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.collapse.in {
+	display: block !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	border-color:transparent;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color:transparent;
+}
+.navbar-toggle {
+	margin-top: 15px;
+	border-radius:0;
+	border:solid 1px #fff !important;
+	border-radius:4px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	height: 3px;
+	background-color:#e96a24;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	float: right;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{ background:none;}
+.nav li:nth-child(5) a, .nav li:nth-child(6) a{ border:none;}
+
+#home_carousel .position-title h1, #home_carousel .position-title h1 span.color1 { font-size:32px;}
+#home_carousel .carousel-caption h3{ font-size:16px;}
+.button-link{ margin-top:10%; margin-bottom:50px;}
+#home_carousel .carousel-caption{ top:140px;}
+
+
+}
+
+@media(max-width:800px) {
+/*nav*/
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	margin-left: 15px;
+}
+/*.navbar h1 a.navbar-brand img {
+	width: 55%;
+}*/
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.button-link{ margin-top:18%;}
+#home_carousel .btn{ padding:5px 10px; font-size:14px;}
+#home_carousel .carousel-caption h1, #home_carousel .carousel-caption h1 i { font-size:24px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{ background:none;}
+.navbar-default .navbar-toggle .icon-bar{ background-color:#034d88;}
+#home_carousel .btn{ font-size:14px; padding:5px 6px;}
+}
+
+@media(max-width:767px) {
+#home_carousel .position-title h1, #home_carousel .position-title h1 i, #home_carousel .position-title h1 span.color1 { font-size:24px;}
+#home_carousel .carousel-caption h2{ font-size:18px;}
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right{ display:none;}
+#home_carousel .position-title{ width:82%; top:30px; left:10%;}
+#home_carousel .carousel-caption{ top:120px; left:10%; width:85%;}
+#home_carousel .position-title h1 span{ font-size:16px;}
+#home_carousel .btn{ font-size:12px; padding:5px 10px;}
+#home_carousel img{ display:none;}
+#home_carousel{ height:270px;}
+.carousel-inner{ height:270px;}
+.button-link{ margin-top:5%;}
+
+}
+@media (max-width:500px){
+#home_carousel{ height:270px;}
+.carousel-inner{ height:270px;}
+#home_carousel img{ display:none;}
+#home_carousel .carousel-caption{ top:110px;}
+#home_carousel .position-title h1{ font-size:18px;}
+#home_carousel .position-title h1 span{ font-size:14px; margin-top:8px;}
+#home_carousel .carousel-caption h3{ font-size:16px;}
+#home_carousel .position-title h2{ font-size:15px;}
+.button-link{ margin-top:4%;}
+#home_carousel .position-title h1, #home_carousel .position-title h1 i, #home_carousel .position-title h1 span.color1 { font-size:20px;}
+#home_carousel .carousel-caption {top: 100px;}
+}

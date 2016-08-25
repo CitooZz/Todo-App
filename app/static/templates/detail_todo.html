@@ -1,0 +1,25 @@
+<h1 class="page-header">
+    Todo Detail
+  </h1>
+
+  <div class="row">
+      <div class="form-group">
+          <label>Title: </label>
+          {{ todo.title }}
+      </div>
+      <div class="form-group">
+          <label>Description: </label>
+          <p>{{todo.description}}</p>
+      </div>
+      
+      <div class="form-group">
+          <label>Attachments: </label>
+          <ul>
+              <li ng-repeat="attachment in attachments track by $index"><a href="{{attachment.file}}" target="blank">{{attachment.filename}}</a><i class="fa fa-trash" aria-hidden="true" style="margin-left:20px;cursor: pointer;" ng-click="DeleteAttachment($index)"></i></li>
+          </ul>
+      </div>
+      
+      <div class="form-group">
+          <button type="file" ngf-select="uploadFiles($file, $invalidFiles)">Select File</button>
+      </div>
+  </div>

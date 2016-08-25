@@ -1,0 +1,22 @@
+<h1 class="page-header">
+    User List
+  </h1>
+  <div class="row">
+    <table class="table table-bordered" name="tableForm" id="crm-objects-table">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="user in users track by $index">
+            <td>{{user.email}}</td>
+            <td>
+              <a href="#/admin/user_todo/{{user.id}}" class="btn btn-sm btn-success">View Todos</a>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+  </div>

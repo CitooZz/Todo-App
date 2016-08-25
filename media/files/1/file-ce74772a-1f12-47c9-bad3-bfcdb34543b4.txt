@@ -1,0 +1,27 @@
+Hi,
+
+I'm Haviz, I am a passionate web developer with 3+ years experience, my main expertise is build a website using MVC based framework in Python (Django) to enhance the speed of development.  My core competency lies in back-end development, I would like to use Python as the server-side programming. In front-end development and web/UI/UX design using HTML, CSS, JavaScript, AJAX, jQuery, Twitter Bootstrap.  I have experience in the following areas: 
+- Application deployment on cloud hosting (GAE). 
+- System/server administration (Nginx) using following distro: Ubuntu, CentOS, Debian. 
+- Database administration (MySQL, PostgreSQL,MongoDB). 
+- Web RESTful/API (Tastypie, Django-piston, Django Rest Framework). 
+- distributed tasking (RabbitMQ,carrot, kombu) 
+- realtime (Gevent-socketio, orbited-stomp) 
+- Web/data scraping by using module pyquery, spynner, scrapy. 
+- Selenium web automation testing.
+- Unit testing
+- source code control like mercurial,git
+- My bitbucket repository https://bitbucket.org/CitooZz
+- My linkedin profile https://www.linkedin.com/profile/view?id=302157261&trk=nav_responsive_tab_profile
+
+Hi,
+
+I'am Haviz Vaisal, web developer from Indonesia with an special interest on backend development. 4+ years of experience working on Web Development (Django), Distributed Messages/Tasks Processing (AMQP & RabbitMQ, Celery), Restful service (API use Django Rest Framework) builds, Cloud SaaS specialist and Realtime Application, Automation testing using selenium python. I also have experiences on web scraping.
+
+My previous project is build CRM application (snapi.io and indirectsales.com). Also you can see my sample code in my repository:
+
+- https://bitbucket.org/CitooZz 
+- https://github.com/CitooZz
+
+
+Regards

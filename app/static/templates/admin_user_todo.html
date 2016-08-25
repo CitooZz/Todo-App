@@ -1,0 +1,28 @@
+<h1 class="page-header">
+    User Todos
+  </h1>
+  <div class="row">
+    <table class="table table-bordered" name="tableForm" id="crm-objects-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <td>Created At</td>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          
+          <tr ng-repeat="todo in todos track by $index">
+            <td><a href="#/todo/{{todo.id}}">{{todo.title}}</a></td>
+            <td>{{todo.description}}</td>
+            <td>{{todo.created_at}}</td>
+            <td>
+              <a href="#/admin/user_todo/{{user_id}}" class="btn btn-sm btn-danger" ng-click="DeleteTodo(todo.id, $index)">Delete</a>
+            </td>
+          </tr>
+          
+        </tbody>
+    </table>
+  </div>
