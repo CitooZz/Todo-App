@@ -11,6 +11,8 @@ from .models import (
 
 
 def home(request):
-
-    return render(request, 'app/index.html', {})
+	"""
+	This function to render landing page. That first time hit by user.
+	"""
+	return render(request, 'app/index.html', {})
 

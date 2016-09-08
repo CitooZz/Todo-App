@@ -1,5 +1,6 @@
 <h1 class="page-header">
     User Todos
+    <a data-target="#add_todo" class="btn btn-sm btn-primary pull-right" data-toggle="modal">Add Todo</a>
   </h1>
   <div class="row">
     <table class="table table-bordered" name="tableForm" id="crm-objects-table">
@@ -20,9 +21,43 @@
             <td>{{todo.created_at}}</td>
             <td>
               <a href="#/admin/user_todo/{{user_id}}" class="btn btn-sm btn-danger" ng-click="DeleteTodo(todo.id, $index)">Delete</a>
+              <a href="#/admin/todo/{{todo.id}}/edit" class="btn btn-sm btn-success">Edit</a>
             </td>
           </tr>
           
         </tbody>
     </table>
+  </div>
+
+
+  <div id="add_todo" class="modal fade" role="dialog">
+  <div class="modal-dialog" ng-app>
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Todo</h4>
+      </div>
+      <form ng-submit="AddTodo()">
+      <div class="modal-body">
+        <div class="form-group has-feedback">
+            <label>Title: </label>
+            <input type="text" class="form-control" ng-model="title" required></input>
+            <span class="glyphicon glyphicon-remove form-control-feedback" ng-show="!title"></span>
+        </div>
+        <div class="form-group has-feedback">
+            <label>Description: </label>
+            <textarea name="description" rows="5" ng-model="description" class="form-control"></textarea>
+            <span class="glyphicon glyphicon-remove form-control-feedback" ng-show="!description"></span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+      </form>
+    </div>
+
+  </div>
   </div>

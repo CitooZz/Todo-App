@@ -9,7 +9,9 @@ from .models import (
 
 
 class UserSerializer(serializers.ModelSerializer):
-
+    """
+    User serializer
+    """
     class Meta:
         model = User
         fields = ('id', 'username', 'email', "password", 'is_superuser')
@@ -18,21 +20,22 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class TodoSerializer(serializers.ModelSerializer):
+    """
+    Todo serializer
+    """
     owner = serializers.SerializerMethodField(read_only=True)
+    owner_id = serializers.SerializerMethodField(read_only=True)
     created_at = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = Todo
         exclude = ()
 
-    def create(self, obj):
-        instance = Todo.objects.create(title=self.validated_data.get(
-            'title'), description=self.validated_data.get('description'), owner=self.context['request'].user)
-
-        return instance
-
     def get_owner(self, obj):
         return obj.owner.username
+
+    def get_owner_id(self, obj):
+        return obj.owner.id
 
     def get_created_at(self, obj):
         created = obj.created_at
@@ -40,7 +43,9 @@ class TodoSerializer(serializers.ModelSerializer):
 
 
 class AttachmentSerializer(serializers.ModelSerializer):
-
+    """
+    Attachment serializer
+    """
     class Meta:
         model = Attachment
         exclude = ('created_at', 'todo', )
